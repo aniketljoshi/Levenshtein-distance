@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Levenshtein.Distance.Web", "Levenshtein.Distance.Web.csproj", "{3FEFBE9D-F4FD-459E-9F47-678052592865}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2EF837C7-4137-4DED-9487-86E794523896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levenshtein.Distance.Core", "..\Levenshtein.Distance.Core\Levenshtein.Distance.Core.csproj", "{E8BB5CA0-0A0C-41FB-B299-E388E870F5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levenshtein.Distance.Services", "..\Levenshtein.Distance.Services\Levenshtein.Distance.Services.csproj", "{5887390E-D8BA-4ACF-B99A-50E4EA14DA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levenshtein.Distance.AWS", "..\Levenshtein.Distance.AWS\Levenshtein.Distance.AWS.csproj", "{623A9372-DE2F-474F-AA7D-363775F43860}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{018FFFD6-5617-44A6-860E-AD5B5ADF278C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levenshtein.Distance.Core.Tests", "..\Tests\Levenshtein.Distance.Core.Tests\Levenshtein.Distance.Core.Tests.csproj", "{38EC2969-5B76-49B0-A33C-481B4026B941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FEFBE9D-F4FD-459E-9F47-678052592865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEFBE9D-F4FD-459E-9F47-678052592865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEFBE9D-F4FD-459E-9F47-678052592865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEFBE9D-F4FD-459E-9F47-678052592865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BB5CA0-0A0C-41FB-B299-E388E870F5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BB5CA0-0A0C-41FB-B299-E388E870F5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BB5CA0-0A0C-41FB-B299-E388E870F5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BB5CA0-0A0C-41FB-B299-E388E870F5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5887390E-D8BA-4ACF-B99A-50E4EA14DA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5887390E-D8BA-4ACF-B99A-50E4EA14DA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5887390E-D8BA-4ACF-B99A-50E4EA14DA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5887390E-D8BA-4ACF-B99A-50E4EA14DA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623A9372-DE2F-474F-AA7D-363775F43860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623A9372-DE2F-474F-AA7D-363775F43860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623A9372-DE2F-474F-AA7D-363775F43860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623A9372-DE2F-474F-AA7D-363775F43860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EC2969-5B76-49B0-A33C-481B4026B941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EC2969-5B76-49B0-A33C-481B4026B941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EC2969-5B76-49B0-A33C-481B4026B941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EC2969-5B76-49B0-A33C-481B4026B941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8BB5CA0-0A0C-41FB-B299-E388E870F5C0} = {2EF837C7-4137-4DED-9487-86E794523896}
+		{5887390E-D8BA-4ACF-B99A-50E4EA14DA7A} = {2EF837C7-4137-4DED-9487-86E794523896}
+		{623A9372-DE2F-474F-AA7D-363775F43860} = {2EF837C7-4137-4DED-9487-86E794523896}
+		{38EC2969-5B76-49B0-A33C-481B4026B941} = {018FFFD6-5617-44A6-860E-AD5B5ADF278C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB91CF16-CAA3-49D0-8ECA-AF0BC905E37C}
+	EndGlobalSection
+EndGlobal
