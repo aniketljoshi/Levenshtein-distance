@@ -1,0 +1,11 @@
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\bin\Debug\netstandard2.0\Levenshtein.Distance.Core.deps.json
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\bin\Debug\netstandard2.0\Levenshtein.Distance.Core.dll
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.csprojAssemblyReference.cache
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.AssemblyInfoInputs.cache
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.AssemblyInfo.cs
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\bin\Debug\netstandard2.0\Levenshtein.Distance.Core.pdb
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.csproj.CoreCompileInputs.cache
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.dll
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.pdb
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.ErrorCodes.resources
+C:\Users\anjoshi\source\LD\Levenshtein.Distance.Core\obj\Debug\netstandard2.0\Levenshtein.Distance.Core.csproj.GenerateResource.cache
