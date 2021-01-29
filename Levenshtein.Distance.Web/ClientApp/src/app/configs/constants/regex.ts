@@ -1,0 +1,1 @@
+export const Name_Prop_Regex = '^[a-zA-Z]+[a-zA-Z0-9_]*[a-zA-Z]$';

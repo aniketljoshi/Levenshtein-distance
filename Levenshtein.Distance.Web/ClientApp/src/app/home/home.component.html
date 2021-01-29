@@ -1,0 +1,44 @@
+<div class="modal-body">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-group row">
+      <label for="name" class="col-sm-4 col-form-label">First String</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" formControlName="firstString" id="firstString"
+          [ngClass]="{ 'is-invalid': submitted && f.firstString.errors }">
+        <div *ngFor="let item of validationMessages.firstString" class="invalid-feedback">
+          <div *ngIf="form.get('firstString').hasError(item.type) && (submitted && f.firstString.errors)">
+            {{item.message}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="description" class="col-sm-4 col-form-label">Second String</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" formControlName="secondString" id="secondString"
+          [ngClass]="{ 'is-invalid': submitted && f.secondString.errors }">
+        <div *ngFor="let item of validationMessages.secondString" class="invalid-feedback">
+          <div *ngIf="form.get('secondString').hasError(item.type) && (submitted && f.secondString.errors)">
+            {{item.message}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer px-0">
+      <button type="submit" class="btn btn-outline-primary btn-sm">Submit</button>
+    </div>
+    <div *ngIf="output!=null">
+        Levenshtein distance is : {{finalDistance}}
+      <br>
+      <table>        
+        <span *ngFor="let m of output.matrix;let i=index">
+          <tr>
+          <td>{{output.secondString[i]}}</td>
+        </tr>
+            <tr *ngFor="let n of m;let j=index">
+              <span *ngIf="i==0">{{output.firstString[j]}}</span>
+        <td>{{n}}</td>
+        </tr>
+        </span>
+      </table>
+    </div>
+  </form>
+</div>
